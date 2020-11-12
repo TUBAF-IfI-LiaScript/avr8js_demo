@@ -18,13 +18,15 @@ _André Dietrich, Sebastian Zug - TU Bergakademie Freiberg, Germany_
 
 This course illustrates the integration and the usage of _avr8js_ in LiaScript. It illustrates combination of explaination parts with interactive simulator sessions. 
 
-You opened the course in an interactive authoring tool - CodiLIA. It bases on CodiMD but integrates all features of LiaScript too. Feel free to log in and to publish your own course materials. 
+The interactive version is available via [Link](https://liascript.github.io/course/?https://raw.githubusercontent.com/TUBAF-IfI-LiaScript/avr8js_demo/main/Readme.md#1)
+
+An webbased authoring tool - CodiLIA - can be found on [Link](https://liamd.informatik.tu-freiberg.de/6VF6RN68SkSM9HEx_xj8RA?edit). It bases on CodiMD but integrates all features of LiaScript too. Feel free to log in and to publish your own course materials. 
 
 The basics of LiaScript are available  
 
-+ on the project website
-+ in the documentation
-+ in short presentation of ideas and motivations
++ on the [project website](https://liascript.github.io) 
++ in the [documentation](https://github.com/liaScript/docs)
++ in short [presentation](https://github.com/SebastianZug/WillkommenAufLiaScript) of ideas and motivations
 
 Please be aware, that LiaScript offers three modi - book style, presentation and lecture with text2speech elements. You can switch between these modes by clicking the symbol in the right upper corner.
 
@@ -36,16 +38,16 @@ A traditional Hello-World example for each enthusastic Arduino developer is a bl
 
 > Switch to the presentation mode (ear symbol) and follow the examplary dialog. 
 
---{{1}}--
+    --{{1}}--
 What are the basic components of the following Arduino program? 
 
---{{2 UK English Male}}--
+    --{{2 UK English Male}}--
 First of all, each Arduino program consists of at least two functions `loop` and `setup`. While the first one, contains the configuration part, we define continously executed code in the setup function.
 
---{{3}}--
+    --{{3}}--
 And what will happen? 
 
---{{4 UK English Male}}--
+    --{{4 UK English Male}}--
 We toggle one of the pins, it means the current is switched on and off. Make a try and start the simulation by pressing the button.
 
 <div>
